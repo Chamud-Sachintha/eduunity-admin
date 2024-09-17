@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { DashboardModuleRoutingModule } from './dashboard-module-routing.module';
 import { HomeComponent } from './home/home.component';
+import { HeaderBannerComponent } from "../../shared/header-banner/header-banner.component";
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { HomeComponent } from './home/home.component';
   ],
   imports: [
     CommonModule,
-    DashboardModuleRoutingModule
-  ]
+    DashboardModuleRoutingModule,
+    HeaderBannerComponent
+]
 })
 export class DashboardModuleModule { }
